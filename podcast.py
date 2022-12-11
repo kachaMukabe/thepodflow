@@ -36,7 +36,7 @@ def get_episode(episode_id):
         return result["episode"]
 
 
-results = search_podcasts("Indie Hackers")
-episodes = get_episodes(feed_url=results[0]["url"])
-episode = get_episode(episodes[0]["id"])
-print(episode)
+# results = search_podcasts("Indie Hackers")
+# episodes = get_episodes(feed_url=results[0]["url"])
+# episode = get_episode(episodes[0]["id"])
+# print(episode)

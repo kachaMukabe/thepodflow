@@ -28,7 +28,9 @@ def get_status(polling_endpoint):
     return status, polling_response.json()
 
 
-pe = transcribe("https://share.transistor.fm/s/cc6dba56")
+pe = transcribe(
+    "https://chrt.fm/track/EB7BD2/media.transistor.fm/cc6dba56/8ea75a7a.mp3"
+)
 
 status, _ = get_status(pe)
 while status != "completed":
